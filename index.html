@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Proclamadores Pentecostes | Un Semillero para las naciones</title>    
+<!--     <link rel="icon" 
+      type="image/jpg" 
+      href="./images/screen_splash.jpg"> -->
+      <meta name="description" content="Bienvenid@s a Radio Proclamadores Pentecostes, oramos por ti atraves de la radio, Dios te bendiga">
+      <link rel="stylesheet" href="css/sweetalert2.min.css">
+      <meta name="theme-color" content="#942CA3">
+      <meta name="MobileOptimized" content="width">
+      <meta name="HandheldFriendly" content="true">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="shortcut icon" type="image/png" href="./images/screen_splash.jpg">
+      <link rel="apple-touch-icon" href="./images/screen_splash.jpg">
+      <link rel="apple-touch-startup-image" href="./images/screen_splash.jpg">
+      <link rel="manifest" href="./manifest.json">
+      <link rel="stylesheet" href="css/app.css">
+    
+</head>
+<body>
+
+
+    <header class="encabezado">
+       <h1 class="encabezado__titulo"> Radio Proclamadores Pentecostes</h1>
+    </header>
+    <main class="principal"> 
+        <div class="centrado">
+            <div class="portada">
+                <div class="marquee">
+                    <p style="color: yellow;">👩‍👩‍👧‍👧 Proclamadores Pentecostes  😍 Un semillero para las naciones - 📊 Transmision en Vivo 24/7  👩‍👩‍👧‍👧</p>
+                </div>
+               
+                <img class="principal__portada" src="images/portada-radio.jpg" alt="portada-radio">    
+            </div>
+            <div class="vumeter">
+                <img class="principal__vumeter" src="images/vumeter-off.jpg" alt="video-vumeter">     
+
+            </div>
+            <audio preload="all" id="radioProclamadores"> 
+                <source src="http://stream.zeno.fm/0kg2e2qkx4zuv" type="audio/mpeg" />  
+            </audio>
+            <div class="controles"> 
+                 <div id="btn_stop" class="container_stop">
+                    <div class="stop">
+                        
+                    </div>
+                </div>
+                <div id="btn_play" class="container_play">
+                    <div class="play">
+                        Play
+                    </div>
+                </div>
+                <div class="container_volumen">
+                    <input class="vol-control" id="vol-control" type="range" min="0" max="100" step="1" autocomplete="off"> </input>
+                   
+                </div>
+            </div>
+            <div class="whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=50583832601&text=Dios%20les%20bendiga%20Pastores%20los%20he%20estado%20escuchando%20en%20la%20Radio">
+                    <img class="whatsapp__img" src="images/what.gif" alt="Enlace whatsapp">
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <small>Diseño y Desarrollo by: <a href="https://facebook.com/LifecodeTV">LifecodeTV</a></small>
+    </footer>
+
+    <script src="jquery/sweetalert2.min.js"></script>
+    <script src="jquery/mycontrols.js"></script>
+</body>
+</html>

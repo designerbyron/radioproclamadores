@@ -1,0 +1,40 @@
+{
+    "name": "Radio Proclamadores Pentecostes",
+    "short_name": "Radio Proclamadores",
+    "description": "Bienvenid@s a Radio Proclamadores Pentecostes, oramos por ti atraves de la radio, Dios te bendiga",
+    "background_color": "#452DA4",
+    "theme_color": "#942CA3",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+      {
+        "src": "./images/screen_splash1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/screen_splash512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/screen_splash384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/screen_splash256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/screen_splash128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }
+
+    ]
+  }
