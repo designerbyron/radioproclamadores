@@ -1,6 +1,8 @@
 let conexionActiva = false;
 
 function verificarConexion(){
+
+  /*Agregarmos opcinal con Sweetalert*/
     var x = `Swal.fire({
         title: 'Importante!',
         text: 'Verifica tu conexion',
@@ -30,7 +32,7 @@ function verificarConexion(){
         }
     }
 }
-
+/*Obligamos a verificar la conexion cuando entramos o recargamos*/
 verificarConexion();
 
 var radioProclamadores = document.getElementById("radioProclamadores");
@@ -99,7 +101,7 @@ function asignarVolumen(){
 
     
 }
-
+/* Registrar el Services worker para que sea una PWA */
 if('serviceWorker' in navigator){
   navigator.serviceWorker.register('./sw.js')
   .then(reg=> console.log('Registro exitoso', reg))
