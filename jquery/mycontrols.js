@@ -107,3 +107,6 @@ if('serviceWorker' in navigator){
   .then(reg=> console.log('Registro exitoso', reg))
   .catch(err=> console.warm('NO se ha podido registrar el SW', err))
 }
+
+/*resolvemos advertencia del navegador acerca de las cookies*/
+response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
